@@ -14,3 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('service-container', 'ServiceContainer@index');
+Route::get('test', function(){
+	return "hello";
+});
